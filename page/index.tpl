@@ -1,4 +1,8 @@
 {%extends file="./layout.tpl"%}
+
+{%*
+  覆盖 main 区域。
+*%}
 {%block name="main"%}
-    {%widget name="/widget/header/header.tpl"%}
+    It works!
 {%/block%}
