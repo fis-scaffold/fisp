@@ -1,6 +1,6 @@
-fis.config.set('namespace', '${namespace}');
+fis.set('namespace', '${namespace}');
 
-fis.config.set('project.index', ['*.{tpl, html}']);
+fis.set('project.files', ['*.{tpl, html}']);
 
 fis.match('*.tpl', {
   useMap: true,
