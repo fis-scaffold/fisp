@@ -24,6 +24,6 @@
   "homepage": "https://github.com/fis-scaffold/php-smarty",
   "devDependencies": {
     "fis3": "^3.3.21",
-    "fis3-smarty": "^1.1.11"
+    "fis3-smarty": "^1.1.12"
   }
 }
