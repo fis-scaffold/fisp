@@ -1,10 +1,8 @@
-fis.set('namespace', '${namespace}');
+fis.require('smarty')(fis);
+fis.set('namespace', '${namespace }');
 
-fis.set('project.files', ['*.{tpl, html}']);
-
-fis.match('*.tpl', {
-  useMap: true,
-  preprocessor: fis.plugin('extlang', {
-    type: 'smarty'
-  })
+// default media is `dev`，
+fis.media('dev').match('*', {
+    useHash: false,
+    optimizer: null
 });

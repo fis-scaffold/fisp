@@ -11,3 +11,21 @@ mkdir demo
 cd demo
 fis3 init php-smarty
 ```
+
+## 开启服务
+
+```
+fis3 server start
+
+// 或者
+npm start
+```
+
+## 编译
+
+```
+fis3 release
+
+// 或者
+npm run dev
+```
