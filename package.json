@@ -1,5 +1,5 @@
 {
-  "name": "${namespace}",
+  "name": "php-smarty-app",
   "version": "1.0.0",
   "description": "PHP-smarty project based on fis3.",
   "main": "index.js",
